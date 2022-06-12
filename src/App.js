@@ -1,11 +1,14 @@
 import './App.css';
-import {Button} from "@mui/material";
+import  AppContainer from "./components/AppContainer/AppContainer"
+
 
 function App() {
+
   return (
-    <Button variant={"contained"}>
-      Hello World
-    </Button>
+      <div>
+          <AppContainer/>
+      </div>
+
   );
 }
 
