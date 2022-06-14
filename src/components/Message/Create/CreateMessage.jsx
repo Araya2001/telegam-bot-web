@@ -70,7 +70,7 @@ function CreateMessage() {
     );
 
     const Render = (props) => (
-        <SetFirstBox children={<Paper elevation={4}>
+        <SetFirstBox children={<Paper elevation={5}>
             <SetTitleBox>
                 <SetTitle title={"Crear Mensaje"} variant={"h6"}/>
             </SetTitleBox>
