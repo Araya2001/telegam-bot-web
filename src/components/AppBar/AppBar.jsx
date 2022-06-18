@@ -12,9 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import setTheme from "../ThemeProvider/ThemeSetter";
-import {ThemeProvider} from "@emotion/react";
-import {createTheme} from "@mui/material";
+
 
 
 const pages = ['Message', 'About'];
